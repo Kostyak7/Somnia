@@ -18,5 +18,25 @@
     <ClCompile Include="Somnia.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="WindowA.cc">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageA.cc">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuA.cc">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowA.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageA.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuA.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
