@@ -9,10 +9,10 @@
 
 class MenuA {
 private:
+	MessageA m;
 	WindowA *w;
 public:
 	bool isMenu = 0;
-	MenuA(){}
 	MenuA(WindowA *w_){
 		create(w_);
 	}

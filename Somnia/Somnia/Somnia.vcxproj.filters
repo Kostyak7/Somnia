@@ -27,6 +27,12 @@
     <ClCompile Include="MenuA.cc">
       <Filter>Файлы заголовков</Filter>
     </ClCompile>
+    <ClCompile Include="TextA.cc">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
+    <ClCompile Include="WordA.cc">
+      <Filter>Файлы заголовков</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WindowA.h">
@@ -36,6 +42,12 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="MenuA.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="TextA.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="WordA.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

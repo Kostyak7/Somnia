@@ -1,7 +1,4 @@
-﻿  MenuA.cc
-  MessageA.cc
-  Somnia.cpp
-  WindowA.cc
-C:\Users\kosty\OneDrive\Документы\GitHub\SomniaGit\Somnia\Somnia\WindowA.cc(83,46): warning C4244: =: преобразование "sf::Int64" в "float", возможна потеря данных
+﻿  TextA.cc
+  WordA.cc
   Создание кода...
   Somnia.vcxproj -> C:\Users\kosty\OneDrive\Документы\GitHub\SomniaGit\Somnia\x64\Debug\Somnia.exe

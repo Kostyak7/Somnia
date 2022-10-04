@@ -148,12 +148,16 @@
     <ClCompile Include="MenuA.cc" />
     <ClCompile Include="MessageA.cc" />
     <ClCompile Include="Somnia.cpp" />
+    <ClCompile Include="TextA.cc" />
     <ClCompile Include="WindowA.cc" />
+    <ClCompile Include="WordA.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MenuA.h" />
     <ClInclude Include="MessageA.h" />
+    <ClInclude Include="TextA.h" />
     <ClInclude Include="WindowA.h" />
+    <ClInclude Include="WordA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
