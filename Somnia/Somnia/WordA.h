@@ -8,6 +8,10 @@
 #include <random>
 #include <unordered_map>
 
+struct WH_symbols {
+	float x = 50, y = 79;
+};
+
 class WordA {
 private:
 	MessageA m;
@@ -24,9 +28,11 @@ private:
 	static std::string defaultFontfilename;
 	static sf::Color defaultColor;
 
-public:
 	unsigned int font_size = 10;
 	float x = 0, y = 0;
+	float added_y = 0;
+
+public:
 
 	WordA(const std::string& str = "string") {
 		create(str);
@@ -61,8 +67,8 @@ public:
 	void create(const std::string& str, const unsigned int& font_size_);
 	void create(const std::string& str, sf::Color color_, const unsigned int& font_size_);
 	void create(const std::string& str, sf::Vector2f pos_, const unsigned int& font_size_);
-	void create(const std::string& str, sf::Vector2f pos_, const unsigned int& font_size_, sf::Color color_);
 	void create(const std::string& str, sf::Vector2f pos_, sf::Color color_);
+	inline void create(const std::string& str, sf::Vector2f pos_, const unsigned int& font_size_, sf::Color color_);
 
 
 	std::string getID();
@@ -92,6 +98,7 @@ public:
 
 	void setPosition(sf::Vector2f pos_);
 	void setPosition(float x_, float y_);
+	sf::Vector2f getPosition();
 
 	void draw(sf::RenderWindow& window);
 	void draw(WindowA *w);
@@ -123,6 +130,8 @@ public:
 
 		return uuid;
 	}
+
+	static std::unordered_map<char, WH_symbols>& dict_symbols;
 };
 
 #endif //!WORDA_H

@@ -18,20 +18,20 @@
     <ClCompile Include="Somnia.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="WordA.cc">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
     <ClCompile Include="WindowA.cc">
-      <Filter>Файлы заголовков</Filter>
-    </ClCompile>
-    <ClCompile Include="MessageA.cc">
-      <Filter>Файлы заголовков</Filter>
-    </ClCompile>
-    <ClCompile Include="MenuA.cc">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы ресурсов</Filter>
     </ClCompile>
     <ClCompile Include="TextA.cc">
-      <Filter>Файлы заголовков</Filter>
+      <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="WordA.cc">
-      <Filter>Файлы заголовков</Filter>
+    <ClCompile Include="MessageA.cc">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuA.cc">
+      <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -6,6 +6,7 @@
 #include <SFML/Audio.hpp>
 #include "WindowA.h"
 #include "MessageA.h"
+#include "WordA.h"
 
 class MenuA {
 private:
